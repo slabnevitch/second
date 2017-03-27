@@ -1,0 +1,191 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.menu__list{
+		display: none;
+		position: absolute;
+		bottom: -140px;
+		left: 0;
+		width: 100%;
+		z-index: 5;
+		background-color: rgba(0, 0, 0, .8);
+	}
+	.hamburger{
+		display: block;
+	}
+	
+	.menu__item{
+		display: block;
+		width: 100%;
+		margin-left: 0;
+		padding: 5px 0;
+	}
+	.menu__item:hover, .menu__item:active, .menu__item:focus{
+		background-color: #000;
+	}
+	.menu__item:hover a, .menu__item:active a, .menu__item:focus a{
+		color: #fff;
+	}
+	.menu__link{
+		display: block;
+		text-align: center;
+		color: #fff;
+	}
+
+	.clock-left, .clock-right{
+		display: none;
+	}
+	.buisness__text{
+		margin-left: 0;
+	}
+	.buisness__form input{
+		margin-bottom: 15px;
+	}
+
+	.first-buyer p{
+		text-align: left;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	
+	.top-nav__logo-cont{
+		max-width: 228px;
+		margin-right: 0;
+	}
+	.buisness__text{
+		text-align: center;
+	}
+	.buisness__form{
+		text-align: center;
+	}
+
+	.section-n__text{
+		margin-bottom: 20px;
+	}
+	.section-n__form{
+		text-align: center;
+	}
+	.percents__img{
+		display: none;
+	}
+	.questions__imf-wrap{
+		display: none;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.top-nav__order{
+		display: none;
+	}
+	.header h1{
+		font-size: 25px;
+		text-align: center;
+	}
+	.quality h2{
+		font-size: 30px;
+		line-height: 32px;
+		margin-bottom: 25px;
+	}
+	.quality__text{
+		font-size: 22px;
+	}
+	.buisness__text{
+		font-size: 20px;
+	}
+	
+	.options h2{
+		font-size: 28px;
+	}
+	.section-n__text{
+		font-size: 14px;
+	}
+	.section-n__text span{
+		font-size: 16px;
+	}
+	.six-years__title{
+		font-size: 24px;
+		line-height: 26px;
+	}
+	.percents__num{
+		font-size: 150px;
+		line-height: 152px;
+	}
+	.percents__text{
+		font-size: 20px;
+		line-height: 22px;
+	}
+	.first-buyer p{
+		font-size: 25px;
+		line-height: 29px;
+	}
+	.first-buyer p span{
+		font-size: 20px;
+	}
+	.contacts h2{
+		line-height: 36px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.menu__list{
+		display: block !important;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
